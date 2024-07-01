@@ -1131,3 +1131,10 @@ section .container {
     transform: translateX(-50%);
   }
 }
+
+.project-card {
+  height: 200px; /* Set the height you want for all cards */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
